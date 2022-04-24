@@ -10,8 +10,6 @@ import { deleteItem, getItem, putItem, updateItem, listItems } from "./local-ite
 const PORT = process.env.STAGE === "local" ? 8000 : 80;
 const HOST = '0.0.0.0';
 
-throw "This is an error";
-
 // App handlers
 const app = express();
 const parser = json();
